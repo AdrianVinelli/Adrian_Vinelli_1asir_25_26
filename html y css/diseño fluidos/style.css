@@ -1,0 +1,17 @@
+* { 
+  margin:0;
+  padding:0;
+}
+a:link, a:visited, a:hover, a:active {
+  color:#cfc;
+  font-size:1em;
+}
+body {
+  background:#eed;
+  font-family:verdana;
+}
+h1 {
+  color:#00a;
+  font-size:1.8em;
+  padding-bottom:.5em; 
+}
