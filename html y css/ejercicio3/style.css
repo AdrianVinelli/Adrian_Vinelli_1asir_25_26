@@ -1,0 +1,45 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+#descripcion {
+  margin-left: 330px;
+}
+
+#datos{
+  float: left;
+  padding: 0;
+  margin: 0;
+
+}
+ #principal{
+   float: left;
+  padding: 0;
+  margin: 0;
+   width: 75%;
+
+ }
+
+#datos {
+ width: 25%;
+}
+
+
+#contenido {
+  padding: 0;
+  float: right;
+  margin-left: 330px;
+}
+#segunda {
+display: flex;
+flex-direction: row-reverse; 
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+
