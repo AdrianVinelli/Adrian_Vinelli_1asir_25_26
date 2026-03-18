@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Don Quijote</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+}
+
+
+.header {
+    background: yellow;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 100px;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+.contenedor {
+    display: flex;
+}
+
+
+.columna {
+    width: 200px;
+    background: lightgreen;
+    padding: 10px;
+}
+
+.columna a {
+    display: block;
+    color: blue;
+    margin: 5px 0;
+}
+
+
+.autor {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.autor img {
+    width: 120px;
+}
+
+
+.contenido {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.titulo {
+    background: #ffee00;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.cajas {
+    display: flex;
+    gap: 20px;
+}
+
+.caja {
+    background: red;
+    color: white;
+    padding: 10px;
+    width: 200px;
+}
+
+.caja span {
+    display: block;
+    background: #ffa500 ;;
+    color: black;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+.imagen-derecha {
+    width: 250px;
+    padding: 20px;
+}
+
+
+.footer {
+    background: lightblue;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+    <img src="quijote0.gif" alt="">
+    <h1>El ingenioso hidalgo don Quijote de la Mancha</h1>
+    <h3>Capítulo primero: pagina 1</h3>
+
+    <div class="menu">
+        <button>Opción 1</button>
+        <button>Opción 2</button>
+        <button>Opción 3</button>
+        <button>Opción 4</button>
+        <button>Opción 5</button>
+    </div>
+</div>
+
+<div class="contenedor">
+
+    <div class="columna">
+        <h3>capitulo I</h3>
+        <a href="#">Pagina 1</a>
+        <a href="#">Pagina 2</a>
+        <a href="#">Pagina 3</a>
+        <a href="#">Pagina 4</a>
+        <a href="#">Pagina 5</a>
+        <a href="#">Pagina 6</a>
+        <a href="#">Pagina 7</a>
+
+        <div class="autor">
+            <h4>Autor</h4>
+            <p>Miguel de Cervantes Saavedra</p>
+            <img src="cervantes.gif" alt="">
+        </div>
+    </div>
+
+    <div class="contenido">
+
+        <div class="titulo">
+            <h2>Edad media</h2>
+            <div class="cajas">
+                <div class="caja">
+                    <b>557</b>
+                    <span>Un violento terremoto destruye gran parte de Constantinopla</span>
+                </div>
+                <div class="caja">
+                    <b>1287</b>
+                    <span>Graves inundaciones en el noroeste de Holanda provocan más de 50.000 muertos.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="titulo">
+            <h2>Edad moderna</h2>
+            <div class="cajas">
+                <div class="caja">
+                    <b>1542</b>
+                    <span>María Estuardo es proclamada Reina de Escocia.</span>
+                </div>
+                <div class="caja">
+                    <b>1782</b>
+                    <span>Los hermanos Montgolfier realizan el primer vuelo de prueba en globo.</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="imagen-derecha">
+        <img src="quijote1.gif" width="100%">
+    </div>
+
+</div>
+
+<div class="footer">
+    Para ver tabla de contenidos y otros capítulos: 
+    <a href="#">Tabla de contenidos</a>
+</div>
+
+</body>
+</html>
